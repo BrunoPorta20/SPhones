@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Namephone, Phone } from "../../components/Namephone";
+import { Namephone } from "../../components/Namephone";
 
 import './styles.scss';
 

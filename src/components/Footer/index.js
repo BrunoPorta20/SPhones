@@ -10,8 +10,8 @@ export function Footer(){
                 sphonnes@gmail.com
             </div>
             <ul className="social">
-                <li><a href="https://www.facebook.com/" target="_blank"><BsFacebook/> </a></li>
-                <li><a href="https://www.instagram.com/" target="_blank"><BsInstagram/> </a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><BsFacebook/> </a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><BsInstagram/> </a></li>
             </ul>
         </footer>
     )
