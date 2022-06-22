@@ -1,0 +1,21 @@
+.phones{
+
+    margin-top: 0rem;
+
+    .card{
+
+
+        &-image{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 50%;
+                height: auto;
+            }
+        }
+
+        &-title{
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+}

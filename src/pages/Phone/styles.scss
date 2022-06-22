@@ -1,0 +1,45 @@
+.info{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5rem 0 0 0;
+    font-size: 1.5rem;
+    font-weight: 400; 
+    
+    &-left{
+        display: flex;
+        justify-content: flex-end;
+        width: 30%;
+        img{
+            padding: .5rem ;
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+    }
+
+    &-right{
+        width: 30%;
+        padding: .75rem 0;
+    }
+    @media(max-width: 1030px){
+        display: block;
+        &-left{
+            width: 100%;
+            img{
+                padding: .5rem ;
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            
+        }
+    
+        &-right{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    
+}
